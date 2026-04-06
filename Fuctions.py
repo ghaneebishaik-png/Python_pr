@@ -41,3 +41,4 @@ def fun1():
 print(x)
 print(fun1())
 print(x)
+print(x+5)
