@@ -1,0 +1,26 @@
+###FILE HANDLING
+"""
+File handling in python allows us to create, read, write and modify files stored on disc.
+In QA automation it is used for
+1. Reading test data
+2. writing logs
+3. storing test results
+4. Comparing actual vs expected output
+
+Basic file handling steps:
+1.open the file
+2.perform operation(read/write/append)
+3. close the file
+
+python provides built in open() function
+
+file=open("test.txt", "mode")
+
+Mode	Meaning
+r	Read (default)
+w	Write (overwrite)
+a	Append
+x	Create new file
+r+	Read + Write
+w+	Write + Read
+"""
